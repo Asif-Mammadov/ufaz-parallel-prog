@@ -1,11 +1,3 @@
----
-title: Export in Typora
-author: John Snow
-creator: Typora inc.
-subject: Tutorial
-keywords: [Pandoc, Tutorial, Export]
----
-
 # Parallel Programming
 
 ## Practical Work 5 : MPI - Asif Mammadov
