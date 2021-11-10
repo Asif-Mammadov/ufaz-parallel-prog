@@ -6,5 +6,5 @@
 
 ### Exercise 1
 
-![image-20211110135154577](/home/asif/.config/Typora/typora-user-images/image-20211110135154577.png)
+![image-20211110135154577](pw7.assets/image-20211110135154577.png)
 
