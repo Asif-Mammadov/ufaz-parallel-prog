@@ -10,10 +10,10 @@ Write a parallel MPI program that computes the maximum of elements in an array. 
 
 The code generates an array of size 1000 with random integer values.
 
-![image-20211206011216520](/home/asif/.config/Typora/typora-user-images/image-20211206011216520.png)
+![image-20211207094722582](pw8.assets/image-20211207094722582.png)
 
 ## Exercise 2
 
 Re-Write the parallel program that computes the max of elements in an array by using MPI_Reduce.
 
-![image-20211206012050265](Parallel Programming.assets/image-20211206012050265.png)
+![image-20211206012050265](pw8.assets/image-20211206012050265.png)
