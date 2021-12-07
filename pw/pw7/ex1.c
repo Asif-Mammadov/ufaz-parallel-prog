@@ -10,10 +10,11 @@ int main(int argc, char **argv) {
   MPI_Comm_size(MPI_COMM_WORLD, &size);
   dest_rank = (rank + 1) % size;
   src_rank = (rank - 1) % size;
+  printf("rank[%d]: %d %d", rank, dest_rank, src_rank);
   rank_value = rank;
   do {
     sum += rank_value;
-    code = MPI_Issend(&rank_value, 1, MPI_INTEGER, dest_rank, tag, MPI_COMM_WORLD, &request);
+    code = MPI_Isend(&rank_value, 1, MPI_INTEGER, dest_rank, tag, MPI_COMM_WORLD, &request);
     code = MPI_Irecv(&rank_value, 1, MPI_INTEGER, src_rank, tag, MPI_COMM_WORLD, &request);
     MPI_Wait(&request, &status);
   } while(rank != rank_value);
